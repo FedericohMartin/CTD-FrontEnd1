@@ -1,0 +1,2 @@
+ctrl + tab = Navegación de pestañas
+ctrl + b = Hide de barra lateral de navegación
