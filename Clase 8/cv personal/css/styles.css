@@ -1,28 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 header {
     display: flex;
-    background-color: #E6E6E6;
     flex-direction: column;
+    justify-content: flex-end;
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/cc_two.jpg');
 }
-
-img {
-    height: 147px;
-    width: 100px;
-    align-self: center;
+#upperHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-/*-----------body------------*/
-main{
-    margin-top: 4.5%;
-    margin-bottom: 4.5%;
+#fotoFederico{
+    height: 20vh;
+    width: 15vw;
+}
+#titulo{
+    width: 100%;
 }
 h1 {
-    background: #C4C4C4;
-    color: #005677;
-    font-family: Times New Roman;
+    background: #413f3f;
+    color: #e9e9e9;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 4vh;
     line-height: 84.69%;
     letter-spacing: 0.3em;
     text-align: center;
@@ -30,41 +38,52 @@ h1 {
     padding: 1% 0;  
 }
 
+/*-----------main------------*/
+main{
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #e9e9e9;
+}
 h2 {
-    background: #C4C4C4;
-    color: #005677;
-    font-family: Times New Roman;
+    background: #413f3f;
+    color: #e9e9e9;
     font-style: normal;
     font-weight: bold;
     width: 70%;
-    font-size: 20px;
+    font-size: 2vh;
     padding-left: 0.5%;
 }
 
 li {
-    font-family: Times New Roman;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 span p {
-    font-family: Times New Roman;
     font-style: normal;
-    font-size: 15px;
+    font-size: 2vh;
 }
-
+.sectionPersonales{
+    height: 15vh;
+}
 .datosPersonales {
-    font-family: Times New Roman;
     font-style: italic;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2vh;
     line-height: 84.69%;
+}
+.ulPersonales{
+    margin-top: 3vh;
 }
 
 .fechas {
     font-family: Times New Roman;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2vh;
 }
 section{
     padding-left: 24%;
@@ -76,17 +95,19 @@ article{
 }
 p{
     text-align: left;
+    font-size: 2vh;
 }
 
 
 /*-----------footer------------*/
 
 footer {
-    background: #005677;
+    background: #413f3f;
+    color: #e9e9e9;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 37px;
+    height: 6vh;
     gap: 26px;
 }
 
