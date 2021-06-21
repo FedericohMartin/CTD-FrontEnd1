@@ -1,7 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/*---------------Header---------------*/
+
+/*--------------------------------------------*/
+/*----------------   Header   ----------------*/
+/*--------------------------------------------*/
+
 header{
     width: 100vw;
 }
@@ -39,10 +43,9 @@ nav{
 
 }
 
-
-
-/*---------------Main---------------*/
-
+/*--------------------------------------------*/
+/*----------------    Main    ----------------*/
+/*--------------------------------------------*/
 
 .banner {
     background-image: url('../img/foto.png');
@@ -107,6 +110,7 @@ nav{
 .destacados{
     text-align: center;
 }
+
 h1{
     font-family: Roboto;
     font-style: normal;
@@ -114,24 +118,69 @@ h1{
     color: #3C2313;
     font-size: 40px;
     line-height: 47px;
-
 }
 
+/*--------------------------------------------*/
+/*----------------   Footer   ----------------*/
+/*--------------------------------------------*/
 
-
-
-/*---------------Footer---------------*/
-
+/*-------Upper Footer--------*/
 .upperFooter{
     background: #F0A83E; 
     display:flex; 
     align-items: center;
 }
+
+/*-------Mid Footer--------*/
 .midFooter{
     background: #3C2313;
+    height: 25vh;    
 }
+.midFooterArticle{
+    padding-left: 5%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.iconFooter{
+    color: #F3F3F3;
+    background-color: #8A8787;
+    height: 6vh;
+    width: 3vw;
+    border: 5px solid #555454;
+    border-radius: 50%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: x-large;
+    padding-left: 2vw;
+}
+.midFooterArticleText{
+    justify-content: center;
+    align-items: center;
+}
+.midFooterP{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+/*------Bottom Footer-------*/
 .bottomFooter{
     background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     height: 3vh;
 }
