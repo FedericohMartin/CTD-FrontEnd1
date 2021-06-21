@@ -31,8 +31,14 @@ nav{
 #navLogo{
     height: 4vh;
     padding-left: 4vw;
-    
 }
+.navItems{
+    text-decoration: none; 
+    color:#F3F3F3;
+    padding: 0 1vw 0 1vw;
+
+}
+
 
 
 /*---------------Main---------------*/
@@ -115,3 +121,20 @@ h1{
 
 
 /*---------------Footer---------------*/
+
+.upperFooter{
+    background: #F0A83E; 
+    display:flex; 
+    align-items: center;
+}
+.midFooter{
+    background: #3C2313;
+}
+.bottomFooter{
+    background: #222222;
+    text-align: center;
+    height: 3vh;
+}
+#rights{
+    color: #F3F3F3;
+}
