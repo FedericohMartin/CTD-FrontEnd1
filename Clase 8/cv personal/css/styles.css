@@ -2,13 +2,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*--------------Header---------------*/
 
 header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,13 +51,16 @@ h1 {
     border-radius: 0.5rem;
 }
 
-/*-----------main------------*/
+/*--------------Main---------------*/
+
 main{
     margin-top: 4.5%;
     margin-bottom: 4.5%;
 }
 #mainSobreMi{
     height: 30vh;
+    width: 50vw;
+    padding-left: 25vw;
 }
 a{
     text-decoration: none;
@@ -109,8 +113,7 @@ p{
     font-size: 2vh;
 }
 
-
-/*-----------footer------------*/
+/*--------------Footer---------------*/
 
 footer {
     background: #413f3f;
