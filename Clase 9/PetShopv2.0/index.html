@@ -15,13 +15,13 @@
         <div id="upperBar">
             <span id="upperText">Grandes ofertas en comederos</span>
             <div id="navLanguage">
-                <span>Español</span>
-                <span>$ARG</span>
+                <span class="navLangItem">Español</span>
+                <span class="navLangItem">$ARG</span>
             </div>
         </div>
-        <nav>
+        <nav id="navHeader">
             <img id="navLogo" src="./img/Logo.png" alt="">
-            <div>
+            <div id="navBar">
                 <a href="" class="navItems"><i class="fas fa-paw"></i>Contactanos</a>
                 <a href="" class="navItems"><i class="fas fa-paw"></i>Categorias</a>
                 <a href="" class="navItems"><i class="fas fa-paw"></i>Pets</a>
@@ -32,9 +32,9 @@
 
     <main>
         <section class="banner">
-            <div class="botones">
-                <div>
-                    <span class="esPlacer">¡Es un placer tenerte aquí!</span>
+            <div class="bannerButtons">
+                <div class="esPlacer">
+                    <span>¡Es un placer tenerte aquí!</span>
                 </div>
                 <p id="comederoDescuento">¡Comederos en descuento!</p>
                 <button id="comederos" onclick="">COMEDEROS</button>
@@ -42,19 +42,47 @@
         </section>
         
         <section class="destacados">
-            <article>
-                <img src="./img/pawprint 2.png" alt="">
-                <section>
-                    <h1 style="color:#3C2313;">Productos Destacados</h1>
-                    <p style="color:#666666;">Comederos - Accesorios - Comida</p>
-                </section>
+            <article id="destacadosHeader">
+                <img id="pawPrint" src="./img/pawprint 2.png" alt="">
+                <h1>Productos Destacados</h1>
+                <nav id="navDestacados">
+                    <a class="buttonProducts">Comederos</a>
+                    <span>-</span>
+                    <a class="buttonProducts">Accesorios</a>
+                    <span>-</span>
+                    <a class="buttonProducts">Comida</a>
+                </nav>  
             </article>
 
-            <article>
-                <img src="./img/Churrasquito.png" alt="">
-                <img src="./img/Comedero.png" alt="">
-                <img src="./img/Huesito juguete.png" alt="">
+            <article id="products">
+                <div class="product">
+                    <img src="./img/churrasquito.png" alt="churrasquito">
+                    <p id="productDescription">Juguete Churrasquito</p>
+                    <p id="productPrize">$150</p>
+                </div>
+                <div class="product">
+                    <img src="./img/comedero.png" alt="churrasquito">
+                    <p id="productDescription">Comedor para Perro</p>
+                    <p id="productPrize">$250</p>
+                </div>
+                <div class="product">
+                    <img src="./img/Huesito.png" alt="churrasquito">
+                    <p id="productDescription">Juguete Huesito</p>
+                    <p id="productPrize">$650</p>
+                </div>
             </article>
+        </section>
+        <section id="contactUs">
+            <h2 id="contactH2">Contáctanos</h2>
+            <form id="contactForm" action="">
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Nombre y Apellido"><br>
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Ingresá tu correo Electrónico"><br>
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Teléfono"><br>
+                <div id="contactFormButtons">
+                    <button id="reset" type="reset">Resetar</button>
+                    <button id="submit" type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
 
     </main>
