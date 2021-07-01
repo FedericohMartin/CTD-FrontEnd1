@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/*-----Header---------*/
+header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+#navHeader{
+    padding-right: 2%;
+}
+#ulHeader{
+    display: flex;
+    flex-flow: row;
+    padding: 0 4% 0 0;
+}
+.liHeader{
+    color: #F3F3F3;
+    padding-right: 10px;
+    font-size: large;
+}
+#logoHeader{
+    padding-left: 3%;
+    height: 90%;
+}
+
+/*------Main-------*/
+
+main{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #E5E5E5;
+    height: 68vh;
+    width: 100vw;
+}
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 8px;
+}
+.podioPizzas{
+    height: 50vh;
+    width: 40vw;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.podio{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#h2Delivery{
+    font-size: xx-large;
+}
+#h2Podio{
+    color: #FC200C;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+h3{
+    align-self: flex-start;
+    font-size: x-large;
+}
+.podioIn{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#podioInOl{
+    font-size: larger;
+    font-weight: bold;
+}
+#podioInImg{
+
+}
+
+/*-----Footer------*/
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerNav{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding-left: 2%;
+}
+.liFooter{
+    color: #F3F3F3;
+    font-size: large;
+    padding: 0 10% 10% 0;
+}
+#logoFooter{
+    padding-right: 3%;
+    height: 60%;
+}
